@@ -1,0 +1,28 @@
+.c-button {
+  min-width: 100%;
+  font-family: inherit;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #efdc5d;
+  color: #000000;
+  padding: 0px 46px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.c-button:hover {
+  background: #B0C4DE;
+}
+
+.c-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
+  
+ .c-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
