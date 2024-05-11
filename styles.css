@@ -1,20 +1,20 @@
 .button {
-  width: 33.33%;
+  width: 31.55%;
   margin: 10px;
   padding: 15px;
-  font-size: 16px;
-  background-color: #4CAF50; /* Green */
+  font-size: 25px;
+  background-color: #00fff3; /* Green */
   border: none;
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .button:hover {
-  background-color: #45a049;
+  background-color: #00ffa0;
 }
