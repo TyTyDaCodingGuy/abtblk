@@ -22,7 +22,7 @@
   
  .c-button {
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     height: 50px;
 }
