@@ -8,7 +8,7 @@
   color: #000000;
   padding: 0px 46px;
   font-size: 24px;
-  cursor: no-drop;
+  cursor: pointer;
 }
 
 .c-button:hover {
