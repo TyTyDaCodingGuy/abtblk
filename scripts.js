@@ -3,7 +3,7 @@ var trcs = "https://il11liiillli11.github.io/TunnelRush22/";
 if (commit) {
     var win;
     document.getElementById('TRCS').onclick = trcs() 
-    function trcs(){
+    function trcs() {
         if (win) {
             win.focus();
         } else {
@@ -37,8 +37,7 @@ if (onevonelol) {
     var win;
 
     document.getElementById('1v1').onclick = onevonelol()
-
-        function onevonelol(){
+        function onevonelol() {
         if (win) {
             win.focus();
         } else {
