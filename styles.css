@@ -12,7 +12,7 @@
   font-size: 16px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .button:hover {
