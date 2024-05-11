@@ -1,6 +1,6 @@
 var urlObj = new window.URL(window.location.href);
 var trcs = "https://il11liiillli11.github.io/TunnelRush22/";
-if (commit) {
+if (trcs) {
     var win;
     document.getElementById('TRCS').onclick = function(){
         if (win) {
