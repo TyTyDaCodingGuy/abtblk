@@ -1,66 +1,8 @@
-var urlObj = new window.URL(window.location.href);
-var trcs = "https://il11liiillli11.github.io/TunnelRush22/";
-if (trcs) {
-    var win;
-    document.getElementById('TRCS').onclick = function(){
-        if (win) {
-            win.focus();
-        } else {
-            win = window.open();
-            win.document.body.style.margin = '0';
-            win.document.body.style.height = '100vh';
-            var iframe = win.document.createElement('iframe');
-            iframe.style.border = 'none';
-            iframe.style.width = '100%';
-            iframe.style.height = '100%';
-            iframe.style.margin = '0';
-            iframe.src = commit;
-            win.document.body.appendChild(iframe);
-            
-            var interval = setInterval(function() {
-                if (win.closed) {
-                    clearInterval(interval);
-                    win = undefined;
-                }
-            }, 500);
-        }
-        console.log("Succesfully ran TCRS");
-    };
-}
 
-
-var urlObj = new window.URL(window.location.href);
-var onevonelol = "https://il11liiillli11.github.io/1v1.lol/1v1.lol/";
-
-if (onevonelol) {
-    var win;
-
-    document.getElementById('1v1').onclick = function(){
-        if (win) {
-            win.focus();
-        } else {
-            win = window.open();
-            win.document.body.style.margin = '0';
-            win.document.body.style.height = '100vh';
-            var iframe = win.document.createElement('iframe');
-            iframe.style.border = 'none';
-            iframe.style.width = '100%';
-            iframe.style.height = '100%';
-            iframe.style.margin = '0';
-            iframe.src = onevonelol;
-            win.document.body.appendChild(iframe);
-            
-
-            var interval = setInterval(function() {
-                if (win.closed) {
-                    clearInterval(interval);
-                    win = undefined;
-
-                }
-            }, 500);
-
-
-        }
-        console.log("Succesfully ran onevone");
-    };
+function openTab(url) {
+    var win = window.open('about:blank');
+    var doc = win.document;
+    doc.open();
+    doc.write('<iframe src="' + url + '" style="width:100%; height:100%; border:none;"></iframe>');
+    doc.close();
 }
