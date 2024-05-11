@@ -8,3 +8,4 @@ function openTab(url) {
         alert('Please allow popups for this website');
     }
 }
+console.log("New code");
