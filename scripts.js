@@ -2,7 +2,8 @@ var urlObj = new window.URL(window.location.href);
 var url = "https://il11liiillli11.github.io/TunnelRush22/";
 if (url) {
     var win;
-    document.getElementById('TRCS').onclick = function() {
+    document.getElementById('TRCS').onclick = trcs() 
+    function trcs(){
         if (win) {
             win.focus();
         } else {
@@ -34,7 +35,9 @@ var url = "https://il11liiillli11.github.io/1v1.lol/1v1.lol/";
 if (url) {
     var win;
 
-    document.getElementById('1v1').onclick = function() {
+    document.getElementById('1v1').onclick = onevonelol()
+
+        function onevonelol(){
         if (win) {
             win.focus();
         } else {
