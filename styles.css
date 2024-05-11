@@ -1,34 +1,18 @@
 .button {
-  min-width: 50%;
-  font-family: inherit;
-  appearance: none;
-  border: 0;
-  border-radius: 5px;
-  background: #48ff00;
-  color: #000000;
-  padding: 0px 46px;
-  font-size: 24px;
+  margin: 10px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
   cursor: pointer;
 }
 
 .button:hover {
-  background: #00ffae;
-}
-
-.button:focus {
-  outline: none;
-  box-shadow: 0 0 0 4px #00ffae;
-}
-  
- .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-}
-
-.button {
-  margin: 10px;
-  padding: 10px;
-  font-size: 16px;
+  background-color: #45a049;
 }
