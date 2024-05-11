@@ -1,6 +1,6 @@
 var urlObj = new window.URL(window.location.href);
-var url = "https://il11liiillli11.github.io/TunnelRush22/";
-if (url) {
+var trcs = "https://il11liiillli11.github.io/TunnelRush22/";
+if (commit) {
     var win;
     document.getElementById('TRCS').onclick = trcs() 
     function trcs(){
@@ -15,7 +15,7 @@ if (url) {
             iframe.style.width = '100%';
             iframe.style.height = '100%';
             iframe.style.margin = '0';
-            iframe.src = url;
+            iframe.src = commit;
             win.document.body.appendChild(iframe);
             
             var interval = setInterval(function() {
@@ -30,9 +30,9 @@ if (url) {
 
 
 var urlObj = new window.URL(window.location.href);
-var url = "https://il11liiillli11.github.io/1v1.lol/1v1.lol/";
+var onevonelol = "https://il11liiillli11.github.io/1v1.lol/1v1.lol/";
 
-if (url) {
+if (onevonelol) {
     var win;
 
     document.getElementById('1v1').onclick = onevonelol()
@@ -49,7 +49,7 @@ if (url) {
             iframe.style.width = '100%';
             iframe.style.height = '100%';
             iframe.style.margin = '0';
-            iframe.src = url;
+            iframe.src = onevonelol;
             win.document.body.appendChild(iframe);
             
 
