@@ -25,6 +25,7 @@ if (commit) {
                 }
             }, 500);
         }
+        console.log("Succesfully ran TCRS");
     };
 }
 
@@ -63,5 +64,6 @@ if (onevonelol) {
 
 
         }
+        console.log("Succesfully ran onevone");
     };
 }
