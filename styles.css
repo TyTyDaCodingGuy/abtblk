@@ -4,20 +4,20 @@
   appearance: none;
   border: 0;
   border-radius: 5px;
-  background: #efdc5d;
+  background: #48ff00;
   color: #000000;
   padding: 0px 46px;
   font-size: 24px;
-  cursor: pointer;
+  cursor: no-drop;
 }
 
 .c-button:hover {
-  background: #B0C4DE;
+  background: #00ffae;
 }
 
 .c-button:focus {
   outline: none;
-  box-shadow: 0 0 0 4px #cbd6ee;
+  box-shadow: 0 0 0 4px #00ffae;
 }
   
  .c-button {
